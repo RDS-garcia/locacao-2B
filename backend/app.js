@@ -10,7 +10,7 @@ const server = http.createServer(app);
 const inicilizar = async () => {
     try {
         //Escutar o servidor na porta 3000
-        const PORT = 3000;
+        const PORT = process.env.PORT;
         server.listen(PORT, () => {
             console.log(`Servidor rodando na porta ${PORT}`);
         });
