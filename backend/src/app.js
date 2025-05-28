@@ -23,4 +23,4 @@ const inicializar = async () => {
 //executando a função inicializar()
 inicializar();
 
-module.exports = { app, server};
+module.exports = { app, server };
